@@ -15,7 +15,7 @@ namespace пз_8
                 Console.WriteLine("2. Вычитание");
                 Console.WriteLine("3. Умножение");
             int num = (int)Convert.ToDouble(Console.ReadLine());
-            if (num <= 1 & num <= 3)
+            if (num >= 1 & num <= 3)
             {
                     string op;
                     switch (num)
