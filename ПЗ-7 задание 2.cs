@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class задание_2
+    internal class programm
     {
         static void Main(string[] args)
         {
