@@ -5,20 +5,20 @@ using System;
     {
     static void Main(string[] args)
     {
-        Console.WriteLine("Введите последовательность целых чисел 0 для завершения");
+        Console.WriteLine("Введите последовательность целых чисел для завершения");
 
-        int number;
+        int num;
         int minNumber = int.MaxValue;
         do
         {
-            number = Convert.ToInt32(Console.ReadLine());
+            num = Convert.ToInt32(Console.ReadLine());
 
-            if (number != 0 && number < minNumber)
+            if (num != 0 & num < minNumber)
             {
                 minNumber = number;
             }
 
-        } while (number != 0); 
+        } while (num != 0); 
 
         Console.WriteLine($"Минимальное число: {minNumber}");
     }
